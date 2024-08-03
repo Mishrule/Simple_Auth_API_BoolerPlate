@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Projects.Identity.DbContext;
 
@@ -11,9 +12,11 @@ using Projects.Identity.DbContext;
 namespace Projects.Identity.Migrations
 {
     [DbContext(typeof(ProjectIdentityDbContext))]
-    partial class ProjectIdentityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240723184056_booking")]
+    partial class booking
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

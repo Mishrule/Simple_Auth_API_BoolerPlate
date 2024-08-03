@@ -88,10 +88,12 @@ namespace Projects.Identity.Services
             }
             else
             {
+                var res = result.Errors.FirstOrDefault().ToString();
                 StringBuilder str = new StringBuilder();
                 foreach (var err in result.Errors)
                 {
                     str.AppendFormat("•{0}\n", err.Description);
+                    response.Errors = new List<string>(); 
                     response.Errors.Add(err.Description);
                 }
                 response.IsSuccess = false;

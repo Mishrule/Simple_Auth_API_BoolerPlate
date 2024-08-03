@@ -16,6 +16,10 @@ namespace Projects.Identity.DbContext
         {
         }
 
+        public DbSet<Building> Building { get; set; }
+        public DbSet<ResidentialBooking> ResidentialBooking { get; set; }
+        public DbSet<NonResidentialBooking> NonResidentialBooking { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

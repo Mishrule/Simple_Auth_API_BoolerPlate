@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{4466615F-9B72-4BE6-97D1-FAAB6885ECF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projects.Identity", "Projects.Identity\Projects.Identity.csproj", "{D77CA15E-4EDB-46FE-B331-F9FED334214D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projects.Identity", "Projects.Identity\Projects.Identity.csproj", "{D77CA15E-4EDB-46FE-B331-F9FED334214D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projects.Application", "Projects.Application\Projects.Application.csproj", "{78EF4591-7EA9-4053-9064-B3C8105C6BA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projects.Application", "Projects.Application\Projects.Application.csproj", "{78EF4591-7EA9-4053-9064-B3C8105C6BA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projects.Api", "Projects.Api\Projects.Api.csproj", "{81271954-F265-4BC5-A730-7DB6D797CFDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projects.Api", "Projects.Api\Projects.Api.csproj", "{81271954-F265-4BC5-A730-7DB6D797CFDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
